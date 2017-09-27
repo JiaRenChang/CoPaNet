@@ -2,6 +2,8 @@
 
 This repository contains the code for CoPaNet introduced in the paper ["Deep Competitive Pathway Network"](arxiv link) by Jia-Ren Chang and Yong-Sheng Chen.
 
+This paper is accepted by Asian Conference on Machine Learning (ACML) 2017. 
+
 The code is built on [fb.resnet.torch](https://github.com/facebook/fb.resnet.torch).
 
 ## Introduction
@@ -17,6 +19,9 @@ Figure 2: The pathway encoding on CIFAR-10 test set.
 ## Usage 
 0. Install Torch and required dependencies like cuDNN. See the instructions [here](https://github.com/facebook/fb.resnet.torch/blob/master/INSTALL.md) for a step-by-step guide.
 1. Clone this repo: ```https://github.com/JiaRenChang/CoPaNet.git```
+
+We also provide our implementation of "CMaxTable".
+It runs above 2x faster than naive implementation in Torch's nn.
 
 As an example, the following command trains a CoPaNet with depth 164 on CIFAR-10:
 ```
