@@ -11,5 +11,24 @@ CoPaNet is a network architecture where multiple pathways compete with each othe
 
 Figure 1: The concept of pathway encoding. 
 
-<img src="https://user-images.githubusercontent.com/11732099/30900881-357a3a50-a398-11e7-81b1-696e61edc064.png" width="360">
+<img src="https://user-images.githubusercontent.com/11732099/30900957-84c73e3c-a398-11e7-8672-df400e74c408.png" width="480">
 Figure 2: The pathway encoding on CIFAR-10 test set. 
+
+## Usage 
+0. Install Torch and required dependencies like cuDNN. See the instructions [here](https://github.com/facebook/fb.resnet.torch/blob/master/INSTALL.md) for a step-by-step guide.
+1. Clone this repo: ```https://github.com/JiaRenChang/CoPaNet.git```
+
+As an example, the following command trains a CoPaNet with depth 164 on CIFAR-10:
+```
+th main.lua -netType CoPaNet -dataset cifar10 -batchSize 64 -nEpochs 300 -depth 164
+``` 
+As another example, the following command trains a CoPaNet with depth 26 on ImageNet:
+```
+th main.lua -netType CoPaNet -dataset imagenet -data [dataFolder] -batchSize 256 -nEpochs 100 -depth 16 -growthRate 32 -nGPU 4
+``` 
+Please refer to [fb.resnet.torch](https://github.com/facebook/fb.resnet.torch) for data preparation.
+
+## Contact
+followwar at gmail.com
+followwar.cs00g at nctu.edu.tw   
+Any discussions, suggestions and questions are welcome!
