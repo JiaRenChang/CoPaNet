@@ -20,7 +20,7 @@ Figure 2: The pathway encoding on CIFAR-10 test set.
 0. Install Torch and required dependencies like cuDNN. See the instructions [here](https://github.com/facebook/fb.resnet.torch/blob/master/INSTALL.md) for a step-by-step guide.
 1. Clone this repo: ```https://github.com/JiaRenChang/CoPaNet.git```
 
-We also provide our implementation of "CMaxTable".
+We also provide our implementation of "CMaxTable".  
 It runs above 2x faster than naive implementation in Torch's nn.
 
 As an example, the following command trains a CoPaNet with depth 164 on CIFAR-10:
@@ -34,5 +34,5 @@ th main.lua -netType CoPaNet -dataset imagenet -data [dataFolder] -batchSize 256
 Please refer to [fb.resnet.torch](https://github.com/facebook/fb.resnet.torch) for data preparation.
 
 ## Contact
-followwar at gmail.com
+followwar at gmail.com  
 Any discussions, suggestions and questions are welcome!
