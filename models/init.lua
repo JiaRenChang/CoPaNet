@@ -88,7 +88,6 @@ function M.setup(opt, checkpoint)
          :add(model, gpus)
          :threads(function()
             local cudnn = require 'cudnn'
-            require 'CMaxTable'
             cudnn.fastest, cudnn.benchmark = fastest, benchmark
          end)
       dpt.gradInput = nil
