@@ -30,6 +30,4 @@ Please refer to [fb.resnet.torch](https://github.com/facebook/fb.resnet.torch) f
 
 ## Contact
 followwar at gmail.com
-
-followwar.cs00g at nctu.edu.tw   
 Any discussions, suggestions and questions are welcome!
