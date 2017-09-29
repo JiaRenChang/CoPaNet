@@ -25,7 +25,7 @@ It runs above 2x faster than naive implementation in Torch's nn.
 
 As an example, the following command trains a CoPaNet with depth 164 on CIFAR-10:
 ```
-th main.lua -netType CoPaNet -dataset cifar10 -batchSize 64 -nEpochs 300 -depth 164
+th main.lua -netType CoPaNet -dataset cifar10 -batchSize 128 -nEpochs 300 -depth 164
 ``` 
 As another example, the following command trains a CoPaNet with depth 26 on ImageNet:
 ```
