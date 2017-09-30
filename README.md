@@ -29,7 +29,7 @@ th main.lua -netType CoPaNet -dataset cifar10 -batchSize 128 -nEpochs 300 -depth
 ``` 
 As another example, the following command trains a CoPaNet with depth 26 on ImageNet:
 ```
-th main.lua -netType CoPaNet -dataset imagenet -data [dataFolder] -batchSize 256 -nEpochs 100 -depth 16 -growthRate 32 -nGPU 4
+th main.lua -netType CoPaNet -dataset imagenet -data [dataFolder] -batchSize 256 -nEpochs 100 -depth 26 -nGPU 4
 ``` 
 Please refer to [fb.resnet.torch](https://github.com/facebook/fb.resnet.torch) for data preparation.
 
