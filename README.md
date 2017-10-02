@@ -1,6 +1,6 @@
 # Deep Competitive Pathway Network (CoPaNet)
 
-This repository contains the code for CoPaNet introduced in the paper ["Deep Competitive Pathway Network"](arxiv link) by Jia-Ren Chang and Yong-Sheng Chen.
+This repository contains the code for CoPaNet introduced in the paper ["Deep Competitive Pathway Network"](https://arxiv.org/abs/1709.10282) by Jia-Ren Chang and Yong-Sheng Chen.
 
 This paper is accepted by Asian Conference on Machine Learning (ACML) 2017. 
 
